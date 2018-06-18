@@ -1,16 +1,16 @@
-.Home__posts__title___-f2Ir {
+.posts__title {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 20px; }
 
-.Home__posts__item___1kZa7 {
+.posts__item {
   box-shadow: 7px 7px 50px 0px rgba(50, 50, 50, 0.25);
   padding: 20px;
   margin-bottom: 20px; }
 
-.Home__posts__item-title___qRx_8 {
+.posts__item-title {
   font-weight: 700;
   font-size: 20px;
   max-width: 80%;
@@ -18,15 +18,15 @@
   text-overflow: ellipsis;
   overflow: hidden;
   margin-bottom: 20px; }
-  .Home__posts__item-title___qRx_8:first-letter {
+  .posts__item-title:first-letter {
     text-transform: uppercase; }
 
-.Home__posts__item-link___1iBUa {
+.posts__item-link {
   display: inline-block; }
-  .Home__posts__item-link___1iBUa:hover a:after {
+  .posts__item-link:hover a:after {
     width: 100%;
     border-radius: 0; }
-  .Home__posts__item-link___1iBUa a {
+  .posts__item-link a {
     position: relative;
     z-index: 0;
     display: inline-block;
@@ -38,7 +38,7 @@
     text-decoration: none;
     color: grey;
     letter-spacing: 0.88px; }
-    .Home__posts__item-link___1iBUa a:after {
+    .posts__item-link a:after {
       content: '';
       position: absolute;
       top: 0;
@@ -51,7 +51,7 @@
       border-radius: 0 50px 50px 0;
       transition: all .3s ease-in-out; }
 
-.Home__posts__more___3cudH button {
+.posts__more button {
   display: block;
   margin: 0 auto;
   box-shadow: none;
@@ -65,10 +65,10 @@
   border: none;
   outline: none;
   cursor: pointer; }
-  .Home__posts__more___3cudH button:hover:before {
+  .posts__more button:hover:before {
     opacity: 0.6;
     transform: scaleX(1); }
-  .Home__posts__more___3cudH button:before {
+  .posts__more button:before {
     content: "";
     top: 0;
     left: 0;
@@ -79,32 +79,32 @@
     opacity: 0;
     transition: opacity 0.7s, transform 0.7s;
     transform: scaleX(0); }
-.User__user___2apz3 {
+.user {
   text-align: center;
   border: 2px dashed #c1b9b9;
   padding: 20px; }
-  .User__user__name___2nFZh {
+  .user__name {
     font-size: 30px;
     margin-bottom: 20px; }
-  .User__user__email___2t71w {
+  .user__email {
     margin-bottom: 20px; }
-    .User__user__email___2t71w a {
+    .user__email___2t71w a {
       font-size: 20px; }
-  .User__user__website___1zx4q a {
+  .user__website___1zx4q a {
     font-size: 18px; }
-.Post__post___39xPL {
+.post {
   margin-top: 20px;
   padding: 25px;
   box-shadow: 7px 7px 50px 0px rgba(50, 50, 50, 0.25); }
-  .Post__post__title___1mcNZ {
+  .post__title {
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
     font-size: 35px;
     letter-spacing: 0.05em; }
-    .Post__post__title___1mcNZ:first-letter {
+    .post__title:first-letter {
       text-transform: uppercase; }
-  .Post__post__desc___1bB7S {
+  .post__desc {
     font-style: italic;
     font-size: 20px;
     letter-spacing: 0.03em;
@@ -112,20 +112,20 @@
     color: darkgray;
     text-indent: 1em;
     margin-bottom: 20px; }
-    .Post__post__desc___1bB7S:first-letter {
+    .post__desc:first-letter {
       text-transform: uppercase; }
-  .Post__post__user___2-SJd {
+  .post__user {
     display: inline-block; }
-.base__container___2KFVG {
+.base__container {
   max-width: 80%;
   margin: 0 auto;
   padding: 25px;
   font-family: "Open-sans", sans-serif; }
-.button__button-det___U1u8M:hover a:after {
+.button-det:hover a:after {
   width: 100%;
   border-radius: 0; }
 
-.button__button-det___U1u8M a {
+.button-det a {
   position: relative;
   z-index: 0;
   display: inline-block;
@@ -137,7 +137,7 @@
   text-decoration: none;
   color: grey;
   letter-spacing: 0.88px; }
-  .button__button-det___U1u8M a:after {
+  .button-det a:after {
     content: '';
     position: absolute;
     top: 0;
@@ -150,27 +150,27 @@
     border-radius: 0 50px 50px 0;
     transition: all .3s ease-in-out; }
 
-.button__button-dec___2k3LE {
+.button-dec {
   line-height: 1.28571;
   color: #625140;
   text-decoration: none;
   position: relative;
   display: inline-block; }
-  .button__button-dec___2k3LE:before, .button__button-dec___2k3LE:after {
+  .button-dec:before, .button-dec:after {
     content: "";
     position: absolute;
     height: 1px;
     bottom: 1px;
     background-color: #b5afaa; }
-  .button__button-dec___2k3LE:hover:before {
+  .button-dec:hover:before {
     width: 100%; }
-  .button__button-dec___2k3LE:hover:after {
+  .button-dec:hover:after {
     width: 0; }
-  .button__button-dec___2k3LE:after {
+  .button-dec:after {
     width: 100%;
     transition: width 0.5s;
     right: 0; }
-  .button__button-dec___2k3LE:before {
+  .button-dec:before {
     width: 0;
     left: 0;
     transition: width 1s; }
